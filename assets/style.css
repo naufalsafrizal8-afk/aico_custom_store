@@ -1,0 +1,14 @@
+:root {
+    --primary: #2563eb;
+    --dark: #1e293b;
+    --light: #f8fafc;
+}
+
+body { font-family: 'Segoe UI', sans-serif; margin: 0; background: var(--light); }
+nav { background: var(--dark); padding: 1rem; color: white; display: flex; justify-content: space-between; }
+.container { padding: 2rem; max-width: 1200px; margin: auto; }
+.card { background: white; padding: 1.5rem; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); }
+.btn { padding: 0.5rem 1rem; border-radius: 5px; cursor: pointer; border: none; text-decoration: none; }
+.btn-primary { background: var(--primary); color: white; }
+table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+th, td { border-bottom: 1px solid #ddd; padding: 12px; text-align: left; }
